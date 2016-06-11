@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NLBirthDateValidator
 
 class ViewController: UIViewController {
 
@@ -14,31 +15,31 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        if NLBirthDateValidator.checkBirthDate("13", month: "09", year: "1986", minimumAge: 18) == true {
+        print("Checking 13 Sep 1986, minimum age 18")
+        checkDates("13", month: "09", year: "1986", minimumAge: 18)
+        
+        print("Checking 31 Feb 1986, minimum age 18")
+        checkDates("31", month: "02", year: "1986", minimumAge: 18)
+        
+        print("Checking 13 Sep 2005, minimum age 18")
+        checkDates("13", month: "09", year: "2005", minimumAge: 18)
+    }
+    
+    func checkDates(day: String, month: String, year: String, minimumAge: Int) {
+        
+        let result = NLBirthDateValidator.checkBirthDate(day, month: month, year: year, minimumAge: minimumAge)
+        
+        if result == .DateValid {
             
-            print("Test date: 13 Sep 1986 is valid and meets the minimum age requirement.")
+            print("Valid.")
         }
-        else {
+        else if result == .DateInvalid {
             
             print("Not valid.")
         }
-        
-        if NLBirthDateValidator.checkBirthDate("30", month: "02", year: "1986", minimumAge: 18) == true {
+        else if result == .AgeUnderMinimum {
             
-            print("Valid.")
-        }
-        else {
-            
-            print("Test date: 30 Feb 1986 is NOT valid.")
-        }
-        
-        if NLBirthDateValidator.checkBirthDate("12", month: "12", year: "2005", minimumAge: 18) == true {
-            
-            print("Valid.")
-        }
-        else {
-            
-            print("Test date: 12 Dec 2005 is valid but does NOT meet the minimum age requirement.")
+            print("Age under minimum.")
         }
     }
 

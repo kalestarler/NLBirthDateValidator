@@ -8,9 +8,16 @@
 
 import UIKit
 
-class NLBirthDateValidator: NSObject {
+public enum BirthDateCheckResult {
+    
+    case DateInvalid
+    case AgeUnderMinimum
+    case DateValid
+}
 
-    class func checkBirthDate(day: String, month: String, year: String, minimumAge: Int?) -> Bool {
+public class NLBirthDateValidator: NSObject {
+
+    public class func checkBirthDate(day: String, month: String, year: String, minimumAge: Int?) -> BirthDateCheckResult {
         
         let dateString = "\(day)/\(month)/\(year)"
         
@@ -23,7 +30,7 @@ class NLBirthDateValidator: NSObject {
             
             // this is not a valid date
             
-            return false
+            return .DateInvalid
         }
         
         let calendar = NSCalendar.currentCalendar()
@@ -52,9 +59,9 @@ class NLBirthDateValidator: NSObject {
             
             // this birthdate is below the minimum age
             
-            return false
+            return .AgeUnderMinimum
         }
         
-        return true
+        return .DateValid
     }
 }

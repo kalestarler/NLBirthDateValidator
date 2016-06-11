@@ -1,9 +1,9 @@
 {
   "name": "NLBirthDateValidator",
-  "version": "0.1.0",
-  "summary": "A short description of NLBirthDateValidator.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/NLBirthDateValidator",
+  "version": "0.1.1",
+  "summary": "A simple function to check if a birth date is valid, and/or if it meets a minimum age requirement.",
+  "description": "A simple function to check if a birth date is valid, and/or if it meets a minimum age requirement. Just pass in the parameters for day, month, year and the minimum age you want to check against (optional), and it will return a 'true' Boolean if it is valid, or 'false' if it is not.",
+  "homepage": "https://github.com/kalestarler/NLBirthDateValidator",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "Kale": "kale@niveumlabs.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/NLBirthDateValidator.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/kalestarler/NLBirthDateValidator.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

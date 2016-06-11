@@ -1,11 +1,7 @@
 use_frameworks!
 
 target 'NLBirthDateValidator_Example' do
+
   pod 'NLBirthDateValidator', :path => '../'
 
-  target 'NLBirthDateValidator_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

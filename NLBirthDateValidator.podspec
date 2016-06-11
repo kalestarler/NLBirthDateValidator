@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NLBirthDateValidator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple function to check if a birth date is valid, and/or if it meets a minimum age requirement.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A simple function to check if a birth date is valid, and/or if it meets a minimum age requirement. Just pass in the parameters for day, month, year and the minimum age you want to check against (optional), and it will return a 'true' Boolean if it is valid, or 'false' if it is not.
+A simple function to check if a birth date is valid, and/or if it meets a minimum age requirement. Just pass in the parameters for day, month, year and the minimum age you want to check against (optional), and it will return a a BirthDateCheckResult enum for .DateValid, .DateInvalid or .AgeUnderMinimum.
                        DESC
 
   s.homepage         = 'https://github.com/kalestarler/NLBirthDateValidator'
@@ -28,7 +28,7 @@ A simple function to check if a birth date is valid, and/or if it meets a minimu
   s.source           = { :git => 'https://github.com/kalestarler/NLBirthDateValidator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'NLBirthDateValidator/Classes/**/*'
   

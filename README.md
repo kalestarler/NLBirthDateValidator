@@ -23,8 +23,10 @@ pod "NLBirthDateValidator"
 To use, implement the following code.
 
 ```swift
-let isValid: Bool = NLBirthDateValidator.checkBirthDate(13, month: 09, year: 1986, minimumAge: 16)
+let result = NLBirthDateValidator.checkBirthDate(13, month: 09, year: 1986, minimumAge: 16)
 ```
+
+The result would either be **.DateValid**, **.DateInvalid**, or **.AgeUnderMinimum**.
 
 ## Author
 

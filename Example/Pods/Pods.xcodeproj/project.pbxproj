@@ -7,17 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012575A70AEB1002A7530A5FA010995A /* NLBirthDateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04B00FF0A16123778272756DD6AC22 /* NLBirthDateValidator.swift */; };
 		17D2B2884671879F5A211E57B818E319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		24566C651D0BD24B001D8D18 /* NLBirthDateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24566C641D0BD24B001D8D18 /* NLBirthDateValidator.swift */; };
-		24566C661D0BD24B001D8D18 /* NLBirthDateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24566C641D0BD24B001D8D18 /* NLBirthDateValidator.swift */; };
-		24729B36B2A840767E8B4284564FA6DD /* Pods-NLBirthDateValidator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A668068C60485FA2CDE57DF2441FF6 /* Pods-NLBirthDateValidator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24729B36B2A840767E8B4284564FA6DD /* Pods-NLBirthDateValidator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DC41E722F878273BCB6B49593CA914 /* Pods-NLBirthDateValidator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AF3A89C15EF9B5DDDC193B7CD9FB985 /* NLBirthDateValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A01B256846DCA6B8A1676975BA89113A /* NLBirthDateValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		530327148FF0B7A591A9BB37C1D06AD1 /* Pods-NLBirthDateValidator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D502E282FEAB92340EE4371A44E99F3 /* Pods-NLBirthDateValidator_Example-dummy.m */; };
-		9360D08FCE2B9FB4C4FA5A14887E7EBA /* Pods-NLBirthDateValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7489A63B9A6323BC8B23A4B4D800E23A /* Pods-NLBirthDateValidator_Tests-dummy.m */; };
-		C4BCD9ABCF42FA73A6C8CBCFD5069E7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		EE8165F61A225EA7AEEB5F0C15C83B52 /* Pods-NLBirthDateValidator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 789FCEF8528158DE87CA86016B6B0438 /* Pods-NLBirthDateValidator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A441B4786F41FDFA2E57DE84897BC95 /* NLBirthDateValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3591633469026C4BC9B83843EE35D30F /* NLBirthDateValidator-dummy.m */; };
+		530327148FF0B7A591A9BB37C1D06AD1 /* Pods-NLBirthDateValidator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 953ED0D0B9F8F94912AB654CE1C966BC /* Pods-NLBirthDateValidator_Example-dummy.m */; };
 		F5F3BDD8393B455539A0696C06461356 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F686F5B5CC1278BA57D6131219784BC4 /* NLBirthDateValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3591633469026C4BC9B83843EE35D30F /* NLBirthDateValidator-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,49 +27,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05A668068C60485FA2CDE57DF2441FF6 /* Pods-NLBirthDateValidator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NLBirthDateValidator_Example-umbrella.h"; sourceTree = "<group>"; };
-		13559F089544E485E56A2171EEF0A773 /* Pods-NLBirthDateValidator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NLBirthDateValidator_Example-resources.sh"; sourceTree = "<group>"; };
-		24566C641D0BD24B001D8D18 /* NLBirthDateValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLBirthDateValidator.swift; sourceTree = "<group>"; };
+		035C06D038F44A4FB68C63C6422A288E /* Pods-NLBirthDateValidator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NLBirthDateValidator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0914B3850E7B34BDDCA706FE8370CB9D /* NLBirthDateValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NLBirthDateValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DC41E722F878273BCB6B49593CA914 /* Pods-NLBirthDateValidator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NLBirthDateValidator_Example-umbrella.h"; sourceTree = "<group>"; };
+		2B04B00FF0A16123778272756DD6AC22 /* NLBirthDateValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NLBirthDateValidator.swift; sourceTree = "<group>"; };
 		3591633469026C4BC9B83843EE35D30F /* NLBirthDateValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NLBirthDateValidator-dummy.m"; sourceTree = "<group>"; };
-		51D3CA3392EA2550B7C950EC9DA00C5E /* Pods-NLBirthDateValidator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NLBirthDateValidator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5192DD5F4D1C5C73996A60A73CDFD570 /* Pods-NLBirthDateValidator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLBirthDateValidator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		59E8B8F1707EDBCC62D3CF23163FF20A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA5A3598C8CBE7AE558F08E27285303 /* NLBirthDateValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NLBirthDateValidator.modulemap; sourceTree = "<group>"; };
-		5D3D9581EB50A1ED4D6271907D88F173 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63788F6872B492EB1678BF08507960FB /* Pods-NLBirthDateValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLBirthDateValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		74593FF5BDB70B85EE3843E9E41EBF4B /* Pods-NLBirthDateValidator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLBirthDateValidator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7489A63B9A6323BC8B23A4B4D800E23A /* Pods-NLBirthDateValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NLBirthDateValidator_Tests-dummy.m"; sourceTree = "<group>"; };
-		78003371CB1AB45AA05FF3BDD37C5049 /* Pods-NLBirthDateValidator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NLBirthDateValidator_Example.modulemap"; sourceTree = "<group>"; };
-		789FCEF8528158DE87CA86016B6B0438 /* Pods-NLBirthDateValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NLBirthDateValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		82504EADE5C24579C71934CF4F855F21 /* NLBirthDateValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLBirthDateValidator-prefix.pch"; sourceTree = "<group>"; };
-		8877FE6A99535ECBF36477FA6D2C0751 /* Pods-NLBirthDateValidator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NLBirthDateValidator_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		930B0B04FAE87DF64AD1BD97DBAB0D8A /* Pods_NLBirthDateValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NLBirthDateValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94444A42625E691CD8CE230CCBAC1CAC /* Pods-NLBirthDateValidator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLBirthDateValidator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9841BE5D560CD52033ED127245B3529D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98AA18C465B4AE597EB0955C6C53E409 /* Pods-NLBirthDateValidator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLBirthDateValidator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D502E282FEAB92340EE4371A44E99F3 /* Pods-NLBirthDateValidator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NLBirthDateValidator_Example-dummy.m"; sourceTree = "<group>"; };
+		953ED0D0B9F8F94912AB654CE1C966BC /* Pods-NLBirthDateValidator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NLBirthDateValidator_Example-dummy.m"; sourceTree = "<group>"; };
+		9855C8A0E238ECA38CA5BA998AD918BB /* Pods-NLBirthDateValidator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NLBirthDateValidator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9A57B34EA98FC9479E190C30EB52DD69 /* Pods_NLBirthDateValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NLBirthDateValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01B256846DCA6B8A1676975BA89113A /* NLBirthDateValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLBirthDateValidator-umbrella.h"; sourceTree = "<group>"; };
-		A961D71EFC587FEFE65E06A0A49BC91A /* NLBirthDateValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NLBirthDateValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCEA97E823E641B18900BEDC13E38A1A /* Pods-NLBirthDateValidator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NLBirthDateValidator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BD14E11A6EFEA34072F09CCCCE8D9482 /* Pods-NLBirthDateValidator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLBirthDateValidator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BD7C1432F6947E78F18D1DBAC50D4084 /* Pods-NLBirthDateValidator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NLBirthDateValidator_Tests-resources.sh"; sourceTree = "<group>"; };
+		AA6343449129B0104EF76888BFDB947E /* Pods-NLBirthDateValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLBirthDateValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BDEDA7A3B665111DA58152F68D34F211 /* NLBirthDateValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NLBirthDateValidator.xcconfig; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DC759C2C4A8E1CEC360A1FA8ABF5A6D9 /* Pods_NLBirthDateValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NLBirthDateValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2429C7A5DE5EFF044E93FDDB2037CFD /* Pods-NLBirthDateValidator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NLBirthDateValidator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F76906CFFD9FAAE67407534FF380D7D3 /* Pods-NLBirthDateValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLBirthDateValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFD29963B1C87AE88D8304085237BC7C /* Pods-NLBirthDateValidator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NLBirthDateValidator_Example.modulemap"; sourceTree = "<group>"; };
+		D198322F2316D61A44E666EB4D144C40 /* Pods-NLBirthDateValidator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NLBirthDateValidator_Example-resources.sh"; sourceTree = "<group>"; };
+		F45DC10425125AF4C3039617D3EFBCEB /* Pods-NLBirthDateValidator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLBirthDateValidator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F89231A3C129EB0C83E78EA947EC5471 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF1DA2BF6DDA0CFD8AA060FB653228C0 /* Pods-NLBirthDateValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NLBirthDateValidator_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		09ADA0DC9252D79B0A8C5ABDDC0C7902 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4BCD9ABCF42FA73A6C8CBCFD5069E7D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		64FD4E40D75843F1BD62F7C0A5DDEABD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,16 +70,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CD533A0CA0B04A949424BD2497618E7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A961D71EFC587FEFE65E06A0A49BC91A /* NLBirthDateValidator.framework */,
-				DC759C2C4A8E1CEC360A1FA8ABF5A6D9 /* Pods_NLBirthDateValidator_Example.framework */,
-				930B0B04FAE87DF64AD1BD97DBAB0D8A /* Pods_NLBirthDateValidator_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		15927C368B0CC9B0934DC9D98A32062B /* NLBirthDateValidator */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,42 +78,6 @@
 			);
 			name = NLBirthDateValidator;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		18FC33710883B95F8C3E71316CAE0F9B /* Pods-NLBirthDateValidator_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				9841BE5D560CD52033ED127245B3529D /* Info.plist */,
-				FF1DA2BF6DDA0CFD8AA060FB653228C0 /* Pods-NLBirthDateValidator_Tests.modulemap */,
-				51D3CA3392EA2550B7C950EC9DA00C5E /* Pods-NLBirthDateValidator_Tests-acknowledgements.markdown */,
-				98AA18C465B4AE597EB0955C6C53E409 /* Pods-NLBirthDateValidator_Tests-acknowledgements.plist */,
-				7489A63B9A6323BC8B23A4B4D800E23A /* Pods-NLBirthDateValidator_Tests-dummy.m */,
-				8877FE6A99535ECBF36477FA6D2C0751 /* Pods-NLBirthDateValidator_Tests-frameworks.sh */,
-				BD7C1432F6947E78F18D1DBAC50D4084 /* Pods-NLBirthDateValidator_Tests-resources.sh */,
-				789FCEF8528158DE87CA86016B6B0438 /* Pods-NLBirthDateValidator_Tests-umbrella.h */,
-				F76906CFFD9FAAE67407534FF380D7D3 /* Pods-NLBirthDateValidator_Tests.debug.xcconfig */,
-				74593FF5BDB70B85EE3843E9E41EBF4B /* Pods-NLBirthDateValidator_Tests.release.xcconfig */,
-			);
-			name = "Pods-NLBirthDateValidator_Tests";
-			path = "Target Support Files/Pods-NLBirthDateValidator_Tests";
-			sourceTree = "<group>";
-		};
-		342A9EB4E8A29AD511C487F213F88240 /* Pods-NLBirthDateValidator_Example */ = {
-			isa = PBXGroup;
-			children = (
-				5D3D9581EB50A1ED4D6271907D88F173 /* Info.plist */,
-				78003371CB1AB45AA05FF3BDD37C5049 /* Pods-NLBirthDateValidator_Example.modulemap */,
-				BCEA97E823E641B18900BEDC13E38A1A /* Pods-NLBirthDateValidator_Example-acknowledgements.markdown */,
-				BD14E11A6EFEA34072F09CCCCE8D9482 /* Pods-NLBirthDateValidator_Example-acknowledgements.plist */,
-				9D502E282FEAB92340EE4371A44E99F3 /* Pods-NLBirthDateValidator_Example-dummy.m */,
-				F2429C7A5DE5EFF044E93FDDB2037CFD /* Pods-NLBirthDateValidator_Example-frameworks.sh */,
-				13559F089544E485E56A2171EEF0A773 /* Pods-NLBirthDateValidator_Example-resources.sh */,
-				05A668068C60485FA2CDE57DF2441FF6 /* Pods-NLBirthDateValidator_Example-umbrella.h */,
-				63788F6872B492EB1678BF08507960FB /* Pods-NLBirthDateValidator_Example.debug.xcconfig */,
-				94444A42625E691CD8CE230CCBAC1CAC /* Pods-NLBirthDateValidator_Example.release.xcconfig */,
-			);
-			name = "Pods-NLBirthDateValidator_Example";
-			path = "Target Support Files/Pods-NLBirthDateValidator_Example";
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -165,30 +96,38 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4A4883652DCDFE843C434885B491A2F0 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				342A9EB4E8A29AD511C487F213F88240 /* Pods-NLBirthDateValidator_Example */,
-				18FC33710883B95F8C3E71316CAE0F9B /* Pods-NLBirthDateValidator_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				49253B541ACFDEA2406C23F60BDA2FFB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0CD533A0CA0B04A949424BD2497618E7 /* Products */,
-				4A4883652DCDFE843C434885B491A2F0 /* Targets Support Files */,
+				87428EDCF55CEF8D200F764FEEC23640 /* Products */,
+				F2820601E649D0AD118B23AEDD168238 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		86ECF35743D12949F9811360561DFDC3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B04B00FF0A16123778272756DD6AC22 /* NLBirthDateValidator.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		87428EDCF55CEF8D200F764FEEC23640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0914B3850E7B34BDDCA706FE8370CB9D /* NLBirthDateValidator.framework */,
+				9A57B34EA98FC9479E190C30EB52DD69 /* Pods_NLBirthDateValidator_Example.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		98E7AD6D6C629932CF32007B382FFCBC /* NLBirthDateValidator */ = {
 			isa = PBXGroup;
 			children = (
-				ECA504B06B68EBC4BD35762C3928990F /* Classes */,
+				86ECF35743D12949F9811360561DFDC3 /* Classes */,
 			);
 			path = NLBirthDateValidator;
 			sourceTree = "<group>";
@@ -215,25 +154,35 @@
 			path = "Example/Pods/Target Support Files/NLBirthDateValidator";
 			sourceTree = "<group>";
 		};
-		ECA504B06B68EBC4BD35762C3928990F /* Classes */ = {
+		CEE68004112FD15BFE5EC84FA5F2F405 /* Pods-NLBirthDateValidator_Example */ = {
 			isa = PBXGroup;
 			children = (
-				24566C641D0BD24B001D8D18 /* NLBirthDateValidator.swift */,
+				59E8B8F1707EDBCC62D3CF23163FF20A /* Info.plist */,
+				CFD29963B1C87AE88D8304085237BC7C /* Pods-NLBirthDateValidator_Example.modulemap */,
+				035C06D038F44A4FB68C63C6422A288E /* Pods-NLBirthDateValidator_Example-acknowledgements.markdown */,
+				5192DD5F4D1C5C73996A60A73CDFD570 /* Pods-NLBirthDateValidator_Example-acknowledgements.plist */,
+				953ED0D0B9F8F94912AB654CE1C966BC /* Pods-NLBirthDateValidator_Example-dummy.m */,
+				9855C8A0E238ECA38CA5BA998AD918BB /* Pods-NLBirthDateValidator_Example-frameworks.sh */,
+				D198322F2316D61A44E666EB4D144C40 /* Pods-NLBirthDateValidator_Example-resources.sh */,
+				17DC41E722F878273BCB6B49593CA914 /* Pods-NLBirthDateValidator_Example-umbrella.h */,
+				AA6343449129B0104EF76888BFDB947E /* Pods-NLBirthDateValidator_Example.debug.xcconfig */,
+				F45DC10425125AF4C3039617D3EFBCEB /* Pods-NLBirthDateValidator_Example.release.xcconfig */,
 			);
-			path = Classes;
+			name = "Pods-NLBirthDateValidator_Example";
+			path = "Target Support Files/Pods-NLBirthDateValidator_Example";
+			sourceTree = "<group>";
+		};
+		F2820601E649D0AD118B23AEDD168238 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE68004112FD15BFE5EC84FA5F2F405 /* Pods-NLBirthDateValidator_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4F06847B1C2A622412514FEDFACC3D82 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE8165F61A225EA7AEEB5F0C15C83B52 /* Pods-NLBirthDateValidator_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		922885E6CA996BE68E17558B9CD7CF39 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,7 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 131B7AFAD591C0BF25E55B8C14DD1292 /* Build configuration list for PBXNativeTarget "NLBirthDateValidator" */;
 			buildPhases = (
-				59DBD49FC52F755CA2DDCADD3088008A /* Sources */,
+				8A47EF38001F7EE3E207214F0BA29392 /* Sources */,
 				64FD4E40D75843F1BD62F7C0A5DDEABD /* Frameworks */,
 				C86701F05630347A95D77269B6D3BB1E /* Headers */,
 			);
@@ -267,24 +216,7 @@
 			);
 			name = NLBirthDateValidator;
 			productName = NLBirthDateValidator;
-			productReference = A961D71EFC587FEFE65E06A0A49BC91A /* NLBirthDateValidator.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B039ECFA1D6436F05D51D86EF23D130E /* Pods-NLBirthDateValidator_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E25BF10B23A80213B34E6B53730973B /* Build configuration list for PBXNativeTarget "Pods-NLBirthDateValidator_Tests" */;
-			buildPhases = (
-				3D06B9D1D3E10B0C5AA59F07C08C9E41 /* Sources */,
-				09ADA0DC9252D79B0A8C5ABDDC0C7902 /* Frameworks */,
-				4F06847B1C2A622412514FEDFACC3D82 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-NLBirthDateValidator_Tests";
-			productName = "Pods-NLBirthDateValidator_Tests";
-			productReference = 930B0B04FAE87DF64AD1BD97DBAB0D8A /* Pods_NLBirthDateValidator_Tests.framework */;
+			productReference = 0914B3850E7B34BDDCA706FE8370CB9D /* NLBirthDateValidator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B6C9158236BEB7418DEAAA37A502E131 /* Pods-NLBirthDateValidator_Example */ = {
@@ -302,7 +234,7 @@
 			);
 			name = "Pods-NLBirthDateValidator_Example";
 			productName = "Pods-NLBirthDateValidator_Example";
-			productReference = DC759C2C4A8E1CEC360A1FA8ABF5A6D9 /* Pods_NLBirthDateValidator_Example.framework */;
+			productReference = 9A57B34EA98FC9479E190C30EB52DD69 /* Pods_NLBirthDateValidator_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -322,13 +254,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0CD533A0CA0B04A949424BD2497618E7 /* Products */;
+			productRefGroup = 87428EDCF55CEF8D200F764FEEC23640 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7B9AEC5036CF786D55ED2E36F08BD833 /* NLBirthDateValidator */,
 				B6C9158236BEB7418DEAAA37A502E131 /* Pods-NLBirthDateValidator_Example */,
-				B039ECFA1D6436F05D51D86EF23D130E /* Pods-NLBirthDateValidator_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -338,25 +269,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24566C661D0BD24B001D8D18 /* NLBirthDateValidator.swift in Sources */,
 				530327148FF0B7A591A9BB37C1D06AD1 /* Pods-NLBirthDateValidator_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D06B9D1D3E10B0C5AA59F07C08C9E41 /* Sources */ = {
+		8A47EF38001F7EE3E207214F0BA29392 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9360D08FCE2B9FB4C4FA5A14887E7EBA /* Pods-NLBirthDateValidator_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59DBD49FC52F755CA2DDCADD3088008A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F686F5B5CC1278BA57D6131219784BC4 /* NLBirthDateValidator-dummy.m in Sources */,
-				24566C651D0BD24B001D8D18 /* NLBirthDateValidator.swift in Sources */,
+				3A441B4786F41FDFA2E57DE84897BC95 /* NLBirthDateValidator-dummy.m in Sources */,
+				012575A70AEB1002A7530A5FA010995A /* NLBirthDateValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +334,7 @@
 		};
 		2F168707AD49E3714B179F0D047596C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94444A42625E691CD8CE230CCBAC1CAC /* Pods-NLBirthDateValidator_Example.release.xcconfig */;
+			baseConfigurationReference = F45DC10425125AF4C3039617D3EFBCEB /* Pods-NLBirthDateValidator_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -435,39 +357,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_NLBirthDateValidator_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		738555D9081A1C6DDEFD88C9A1564E8A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74593FF5BDB70B85EE3843E9E41EBF4B /* Pods-NLBirthDateValidator_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NLBirthDateValidator_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NLBirthDateValidator_Tests/Pods-NLBirthDateValidator_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NLBirthDateValidator_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -508,7 +397,7 @@
 		};
 		87CCDE962D46CC80F6C393F504B349D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63788F6872B492EB1678BF08507960FB /* Pods-NLBirthDateValidator_Example.debug.xcconfig */;
+			baseConfigurationReference = AA6343449129B0104EF76888BFDB947E /* Pods-NLBirthDateValidator_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -534,39 +423,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8A7D3AA5BBC537AE4B6BAEEF960A7DCC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F76906CFFD9FAAE67407534FF380D7D3 /* Pods-NLBirthDateValidator_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NLBirthDateValidator_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NLBirthDateValidator_Tests/Pods-NLBirthDateValidator_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NLBirthDateValidator_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -652,15 +508,6 @@
 			buildConfigurations = (
 				8063A1127AD827777DB7C240F7E7F26D /* Debug */,
 				DEA3DA6A76828E9607D961DF1865E366 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1E25BF10B23A80213B34E6B53730973B /* Build configuration list for PBXNativeTarget "Pods-NLBirthDateValidator_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A7D3AA5BBC537AE4B6BAEEF960A7DCC /* Debug */,
-				738555D9081A1C6DDEFD88C9A1564E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
