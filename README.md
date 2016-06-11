@@ -1,6 +1,6 @@
 # NLBirthDateValidator
 
-[![CI Status](http://img.shields.io/travis/Kale/NLBirthDateValidator.svg?style=flat)](https://travis-ci.org/Kale/NLBirthDateValidator)
+[![CI Status](http://img.shields.io/travis/kalestarler/NLBirthDateValidator.svg?style=flat)](https://travis-ci.org/Kale/NLBirthDateValidator)
 [![Version](https://img.shields.io/cocoapods/v/NLBirthDateValidator.svg?style=flat)](http://cocoapods.org/pods/NLBirthDateValidator)
 [![License](https://img.shields.io/cocoapods/l/NLBirthDateValidator.svg?style=flat)](http://cocoapods.org/pods/NLBirthDateValidator)
 [![Platform](https://img.shields.io/cocoapods/p/NLBirthDateValidator.svg?style=flat)](http://cocoapods.org/pods/NLBirthDateValidator)
