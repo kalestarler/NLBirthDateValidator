@@ -1,0 +1,22 @@
+{
+  "name": "NLBirthDateValidator",
+  "version": "0.1.0",
+  "summary": "A short description of NLBirthDateValidator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/NLBirthDateValidator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kale": "kale@niveumlabs.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/NLBirthDateValidator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NLBirthDateValidator/Classes/**/*"
+}

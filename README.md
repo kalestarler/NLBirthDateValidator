@@ -9,8 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 NLBirthDateValidator is available through [CocoaPods](http://cocoapods.org). To install
@@ -18,6 +16,14 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "NLBirthDateValidator"
+```
+
+## Usage
+
+To use, implement the following code.
+
+```swift
+let isValid: Bool = NLBirthDateValidator.checkBirthDate(13, month: 09, year: 1986, minimumAge: 16)
 ```
 
 ## Author

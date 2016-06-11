@@ -1,0 +1,6 @@
+framework module NLBirthDateValidator {
+  umbrella header "NLBirthDateValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - NLBirthDateValidator (0.1.0)
+
+DEPENDENCIES:
+  - NLBirthDateValidator (from `../`)
+
+EXTERNAL SOURCES:
+  NLBirthDateValidator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NLBirthDateValidator: 1f7dbe1fe50750557a8518fe7b78f1f094204938
+
+PODFILE CHECKSUM: 56951031e3be1809886f9eca9ffbe4bc2bf38b5d
+
+COCOAPODS: 1.0.0
