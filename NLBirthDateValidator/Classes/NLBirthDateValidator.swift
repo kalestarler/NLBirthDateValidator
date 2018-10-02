@@ -3,6 +3,7 @@
 //  NLBirthDateValidator
 //
 //  Created by Kale on 9/6/16.
+// Updated by Erich on 9/11/18
 //  Copyright © 2016 Niveum Labs. All rights reserved.
 //
 
@@ -16,15 +17,15 @@ public enum BirthDateCheckResult {
 }
 
 public class NLBirthDateValidator: NSObject {
-
+    
     public class func checkBirthDate(day: String, month: String, year: String, minimumAge: Int?) -> BirthDateCheckResult {
         
         let dateString = "\(day)/\(month)/\(year)"
         
-        let dateFormatter = NSDateFormatter()
+        let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yyyy"
         
-        let testDate = dateFormatter.dateFromString(dateString)
+        let testDate = dateFormatter.date(from: dateString)
         
         if testDate == nil {
             
@@ -33,12 +34,12 @@ public class NLBirthDateValidator: NSObject {
             return .DateInvalid
         }
         
-        let calendar = NSCalendar.currentCalendar()
-        var components = calendar.components([.Year], fromDate: testDate!)
+        let calendar = NSCalendar.current
+        var components = calendar.dateComponents([.year], from: testDate!)
         
         let birthDateYearNum = components.year
         
-        components = calendar.components([.Year], fromDate: NSDate())
+        components = calendar.dateComponents([.year], from: NSDate() as Date)
         
         let currentYearNum = components.year
         
@@ -55,7 +56,7 @@ public class NLBirthDateValidator: NSObject {
             testAge = 0
         }
         
-        if birthDateYearNum > (currentYearNum - testAge) {
+        if birthDateYearNum! > (currentYearNum! - testAge) {
             
             // this birthdate is below the minimum age
             
